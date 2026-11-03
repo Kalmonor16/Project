@@ -1,8 +1,58 @@
 /* ==========================================================================
    Custom Style Sheet for Project
    ========================================================================== */
+/* ==========================================================================
+Color Palette
+   Light Brown - #C29A78
+   Dark Brown - #703911
+   Light Pink - #FFD6EE
+   Dark Pink - #DE8CB5
+   Light Blue - #CFE7FF
+   Dark Blue - #84B3E8
+   Light Yellow - #FFF5C2
+   Dark Yellow - #EBCF3B
+========================================================================== */
 
-   h1 {
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+nav {
+   text-align: right;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+   background-color: white;
+   padding: 10px;
+   border-bottom: 1px solid #DE8CB5;
+}
+
+nav a{
+   text-decoration: none;
+   margin: 0 30px;
+   font-size: 18px;
+   color: #000000;
+
+}
+
+header {
+      background-color: #FFD6EE;
+      padding: 30px;
+      text-align: center;
+      font-size: 24px;
+      border-bottom: 2px solid #DE8CB5;
    }
+
+body {
+      background-color: #C29A78;
+   }
+
+section {
+      background-color: #CFE7FF;
+      padding: 30px;
+      margin: 30px 60px;
+      border-radius: 15px;
+      border: 1px solid #84B3E8;
+      box-shadow: 0 4px 8px #703911;
+   }
+section h2 {
+   text-align: center;
+   border-bottom: 3px solid #84B3E8;
+}
