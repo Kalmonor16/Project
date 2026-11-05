@@ -8,8 +8,12 @@ Color Palette
    Light Pink - #FFD6EE
    Dark Pink - #DE8CB5
    Light Blue - #CFE7FF
+   Light Pink - #ffe3f3
+   Dark Pink - #f4a7ce
+   Light Blue - #e1f0ff
    Dark Blue - #84B3E8
    Light Yellow - #FFF5C2
+   Light Yellow - #fdf6d1
    Dark Yellow - #EBCF3B
 ========================================================================== */
 
@@ -22,6 +26,7 @@ nav {
    background-color: white;
    padding: 10px;
    border-bottom: 1px solid #DE8CB5;
+   border-bottom: 1px solid #f4a7ce;
 }
 
 nav a{
@@ -35,25 +40,36 @@ nav a{
 header {
       background-color: #FFD6EE;
       padding: 30px;
+      background-color: #ffe3f3;
+      padding: 50px;
       text-align: center;
       font-size: 24px;
       border-bottom: 2px solid #DE8CB5;
+      border-bottom: 2px solid #f4a7ce;
    }
 
 body {
       background-color: #C29A78;
+      background-color: #fdf6d1;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    }
 
 section {
       background-color: #CFE7FF;
       padding: 30px;
       margin: 30px 60px;
+      background-color: #e1f0ff;
+      padding: 25px;
+      margin: 4% 8%;
       border-radius: 15px;
       border: 1px solid #84B3E8;
       box-shadow: 0 4px 8px #703911;
+      box-shadow: 0 0px 8px #EBCF3B;
    }
 section h2 {
+.section-heading {
    text-align: center;
+<<<<<<< HEAD
    border-bottom: 3px solid #84B3E8;
 }
 .contactform {
@@ -66,3 +82,67 @@ section h2 {
 }
 
 
+=======
+   border-bottom: 2px dashed #84B3E8;
+   padding-bottom: 5px;
+   margin: 0px 25px;
+}
+
+.side-by-side {
+   display: flex;
+   justify-content: space-between;
+   align-items: stretch;
+   gap: 30px;
+   min-height: 200px;
+   margin-top: 30px;
+   padding: 1% 3%;
+}
+
+.main-list {
+   font-size: 18px;
+   width: 35%;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 10px;
+   padding-left: 3%;
+}
+
+ul li::before {
+    content: "🎨  ";
+}
+
+.main-list ul {
+   justify-content: space-between;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   list-style-type: none;
+}
+
+.main-gallery {
+   width: 65%;
+   border-spacing: 15px;
+   table-layout: fixed;
+   margin: 0 0 0 auto;
+   text-align: center;
+   font-style: italic;
+   font-size: 16px;
+}
+
+.main-gallery td {
+   width: 20%;
+   padding: 10px;
+}
+.main-gallery img {
+   width: 100%;
+   height: 170px;
+   object-fit: cover;
+   border-radius: 10px;
+   box-shadow: 0 0px 8px #84B3E8;
+}
+
+a {
+   text-decoration: none;
+   color: #5493db;
+}
+>>>>>>> 553acfacab0ec23fd52c2ddd877ee93e0a857cda
