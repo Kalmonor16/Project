@@ -66,23 +66,8 @@ section {
       box-shadow: 0 4px 8px #703911;
       box-shadow: 0 0px 8px #EBCF3B;
    }
-section h2 {
 .section-heading {
    text-align: center;
-<<<<<<< HEAD
-   border-bottom: 3px solid #84B3E8;
-}
-.contactform {
-   margin: 0 auto;
-   text-align: center;
-   max-width: 700px;
-}
-.form-group {
-   padding: 8px 24px;
-}
-
-
-=======
    border-bottom: 2px dashed #84B3E8;
    padding-bottom: 5px;
    margin: 0px 25px;
@@ -145,4 +130,3 @@ a {
    text-decoration: none;
    color: #5493db;
 }
->>>>>>> 553acfacab0ec23fd52c2ddd877ee93e0a857cda
