@@ -184,27 +184,10 @@ a {
    text-align: center; 
 }
 
-.button {
-   display: inline-block;
-   text-decoration: none;
-   padding: 0.8rem 1.1rem;
-   border-radius: 999px;
-}
  
-/* ==========================================================================
-   IS THIS TOO MUCH?
-   ========================================================================== */
-.button-order {
-   background-color:#f4a7ce;
-   color: white;
-   font-weight: 700;
+.section-heading2 {
+   text-align: center;
 }
-.button-main {
-   background-color: #FFD6EE;
-   color: white;
-   font-weight: 700;
-}
-
 .gallery-grid {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
