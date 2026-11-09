@@ -247,27 +247,45 @@ a {
 
 .contactform {
    margin: 0 auto;
-   max-width: 700px;
+   max-width: 1000px;
+   padding-bottom: 20px;
    text-align: center;
+   background-color: #CFE7FF;
+   border-radius: 40px;
+   border: 2px solid #84B3E8;
+   /*box-shadow: 7px 7px 7px 7px #84B3E8;*/
 }
 
+
 input {
-      max-width: 100%;
-      box-sizing:border-box;
-      width: 600px;
-      padding: 5px 5px;
-      border-radius: 15px;
-      border-style: hidden ;
-   }
+   max-width: 100%;
+   box-sizing:border-box;
+   width: 600px;
+   padding: 5px 5px;
+   border-radius: 10px;
+   border-color: #DE8CB5;
+   border-style: solid;
+}
 
 #detail, #aller {
    padding: 15px;
    max-width: 100%;
    width:600px;
    border-radius: 15px;
-   border-style: hidden;
+   border-color: #DE8CB5;
+   border-width: 2px;
 }
 
 .form-group {
    padding: 10px 5px;
+
+}
+
+#contact-form {
+   padding: 20px;
+   margin: 0 auto;
+   width:600px;
+   background-color: #ffe3f3;
+   border-radius: 20px;
+   border: 2px solid #DE8CB5;
 }
