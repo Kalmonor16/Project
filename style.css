@@ -231,7 +231,7 @@ a {
 
 .contactform {
    margin: 70px auto;
-   max-width: 1000px;
+   max-width: 900px;
    padding: 20px;
    text-align: center;
    background-color: #CFE7FF;
@@ -278,4 +278,13 @@ input {
 #button {
    background-color:#FFF5C2;
    border: 2px solid #EBCF3B;
+}
+
+#quan {
+   padding: 5px 5px;
+   max-width: 100%;
+   width:600px;
+   border-radius: 15px;
+   border-color: #DE8CB5;
+   border-width: 2px;
 }

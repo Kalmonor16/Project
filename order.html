@@ -26,43 +26,54 @@
         <a href="specials.html">Specials</a>
     </nav>
     <section class="contactform">
-        <h2> Customize Here!</h2>
+        <h2> Customize Your Order Here!</h2>
         <br>
             <form id="contact-form">
                 <div class="form-group">
                     <label for="fname">First Name</label>
                     <br>
-                    <input type="text" id="fname" name="fname" placeholder="Your name">
+                    <input type="text" id="fname" name="fname" placeholder="Your name" required>
                     <br>
                 </div>
                 <div class="form-group">
                     <label for="lname">Last Name</label>
                     <br>
-                    <input type="text" id="lname" name="lname" placeholder="Your Last name">
+                    <input type="text" id="lname" name="lname" placeholder="Your Last name" required>
                     <br>
                 </div>
                 <div class="form-group">
                 <label for="email">Email</label>
                 <br>
-                <input type="text" id="email" name="email" placeholder="youremail@example.com">
+                <input type="text" id="email" name="email" placeholder="youremail@example.com" required>
                 <br>
                 </div>
                 <div class="form-group">
                 <label for="fname">Phone Number</label>
                 <br>
-                <input type="text" id="num" name="num" placeholder="(123)456-789">
+                <input type="text" id="num" name="num" placeholder="(123)456-7890" required>
                 <br>
                 </div>
                 <div class="form-group">
                 <label for="fname">Event Date</label>
                 <br>
-                <input type="date" id="eventd" name="eventd" min="2026-11-06" max="2029-11-05">
+                <input type="date" id="eventd" name="eventd" min="2026-11-06" max="2029-11-05" required>
                 <br>
                 </div>
                 <div class="form-group">
                 <label for="fname">Desired Quantity</label>
                 <br>
-                <input type="text" id="quan" name="quan" placeholder="Select a Quantity">
+                <select id="quan" name="quan" placeholder="Select a Quantity" required>
+                    <option>One Dozen (12)</option>
+                    <option>One and a Half Dozen (18)</option>
+                    <option>Two Dozen (24)</option>
+                    <option>Two and a Half Dozen (30)</option>
+                    <option>Three Dozen (36)</option>
+                    <option>Four Dozen (48)</option>
+                    <option>Five Dozen (60)</option>
+                    <option>Six Dozen (72)</option>
+                    <option>Eight Dozen (96)</option>
+                    <option>Ten Dozen (120)</option>
+                </select>
                 <br>
                 </div>
                 <div class="form-group">
@@ -72,7 +83,7 @@
                 </div>
                 <div class="form-group">
                 <label for="fname">Event and cookie Details</label><br>
-                <textarea type="text" id="detail" name="detail" placeholder="Describe your dream cookie and theme!" rows="4" maxlength="1000"></textarea>
+                <textarea type="text" id="detail" name="detail" placeholder="Describe your dream cookie and theme!" rows="4" maxlength="1000" required></textarea>
                 <br>
                 </div>
                 <input id="button" type="submit" value="Place Order!">
