@@ -17,18 +17,19 @@ Color Palette
 
 
 nav {
-   text-align: right;
    position: sticky;
    top: 0;
-   z-index: 1000;
    background-color: white;
-   padding: 10px;
    border-bottom: 1px solid #DE8CB5;
+
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
 }
 
 nav a{
    text-decoration: none;
-   margin: 0 30px;
+   margin: 0 2.5%;
    font-size: 18px;
    color: #000000;
 
@@ -183,27 +184,10 @@ a {
    text-align: center; 
 }
 
-.button {
-   display: inline-block;
-   text-decoration: none;
-   padding: 0.8rem 1.1rem;
-   border-radius: 999px;
-}
  
-/* ==========================================================================
-   IS THIS TOO MUCH?
-   ========================================================================== */
-.button-order {
-   background-color:#f4a7ce;
-   color: white;
-   font-weight: 700;
+.section-heading2 {
+   text-align: center;
 }
-.button-main {
-   background-color: #FFD6EE;
-   color: white;
-   font-weight: 700;
-}
-
 .gallery-grid {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
