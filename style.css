@@ -5,11 +5,9 @@
 Color Palette
    Light Brown - #C29A78
    Dark Brown - #703911
-   Light Pink - #FFD6EE
+   Light Pink - #ffe3f3
    Dark Pink - #DE8CB5
    Light Blue - #CFE7FF
-   Light Pink - #ffe3f3
-   Dark Pink - #f4a7ce
    Light Blue - #e1f0ff
    Dark Blue - #84B3E8
    Light Yellow - #FFF5C2
@@ -26,7 +24,6 @@ nav {
    background-color: white;
    padding: 10px;
    border-bottom: 1px solid #DE8CB5;
-   border-bottom: 1px solid #f4a7ce;
 }
 
 nav a{
@@ -37,15 +34,13 @@ nav a{
 
 }
 
-header {
-      background-color: #FFD6EE;
+.main-header {
       padding: 30px;
       background-color: #ffe3f3;
-      padding: 50px;
+      padding: 2% 11%;
       text-align: center;
       font-size: 24px;
       border-bottom: 2px solid #DE8CB5;
-      border-bottom: 2px solid #f4a7ce;
    }
 
 body {
@@ -62,7 +57,7 @@ section {
       padding: 25px;
       margin: 4% 8%;
       border-radius: 15px;
-      border: 1px solid #84B3E8;
+      border: 2px solid #84B3E8;
       box-shadow: 0 4px 8px #703911;
       box-shadow: 0 0px 8px #EBCF3B;
    }
