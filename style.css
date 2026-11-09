@@ -230,9 +230,9 @@ a {
 /* ORDER PAGE */
 
 .contactform {
-   margin: 0 auto;
+   margin: 70px auto;
    max-width: 1000px;
-   padding-bottom: 20px;
+   padding: 20px;
    text-align: center;
    background-color: #CFE7FF;
    border-radius: 40px;
@@ -272,4 +272,10 @@ input {
    background-color: #ffe3f3;
    border-radius: 20px;
    border: 2px solid #DE8CB5;
+   font-weight: 500;
+}
+
+#button {
+   background-color:#FFF5C2;
+   border: 2px solid #EBCF3B;
 }
