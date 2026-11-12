@@ -321,6 +321,7 @@ input {
    margin-top: 25px
    }
 
+<<<<<<< Updated upstream
    /* ==========================================================================
    Specials CSS
    ========================================================================== */
@@ -363,4 +364,42 @@ input {
       object-fit: cover;
       border: 2px solid #84B3E8;
       border-radius: 10px;
+=======
+   .pricing-section {
+      display: grid;
+      gap: 1rem;
+      margin-top: 1.2rem;
+   }
+
+   .pricing-card {
+      display: grid;
+      grid-template-columns: minmax(180px, 260px) minmax(0, 1fr);
+      gap: 1.4rem;
+      padding: 1.4rem;
+      align-items: center;
+      background: #ffe3f3;
+      border: 1px solid #DE8CB5;
+      border-radius: 18px;
+      box-shadow: 0 10px 24px #DE8CB5(--shadow);
+      text-align: left;
+      cursor: point;
+   }
+
+   .pricing-card img {
+      width: 100%;
+      object-fit: cover;
+      aspect-ratio: 1 / 1;
+      border-radius: 14px;
+      height: 220px;
+      cursor: pointer;
+      border: 2px solid #DE8CB5;
+   }
+
+   img {
+      overflow-clip-margin: content-box;
+      overflow: clip;
+   }
+   .pricing-card h4 {
+      margin: 0.2rem 0 0.45rem;
+>>>>>>> Stashed changes
    }
