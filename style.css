@@ -17,6 +17,7 @@ Color Palette
 nav {
    position: sticky;
    top: 0;
+   z-index: 1000;
    background-color: white;
    border-bottom: 1px solid #DE8CB5;
 
@@ -162,6 +163,7 @@ a {
    display: block;
    border-radius: 18px;
    object-fit: cover;
+   border: 2px solid #84B3E8;
 }
 
 /* Mobile responsiveness: so what switches it to a single column for smaller screens */
@@ -196,7 +198,9 @@ a {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    gap: 25px;
-   margin-top: 25px
+   margin-top: 25px;
+   position: relative;
+   z-index: 1;
 }
 
 .gallery-card img {
@@ -204,6 +208,7 @@ a {
    height: 220px;
    object-fit: cover;
    border-radius: 10px;
+   border: 1px solid #DE8CB5;
 }
 
 .gallery-card h3 {
@@ -342,27 +347,24 @@ footer {
    Pricing CSS
    ========================================================================== */
 
-   .pricing-title .card-content {
+   .pricing-title .card-content, .pricing-section .card-content {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
-      margin-bottom: 0.4rem;
+      gap: 10px;
    }
 
-   .pricing-section .card-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      margin-bottom: 0.4rem;
+   .pricing-title .info .pricing-section .info {
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+      font-size: 0.8rem;
       font-weight: 700;
+      margin: 0 0 15px;
    }
 
-   .pricing-section .card-content .info {
-   display: grid;
-   gap: 25px;
-   margin-top: 25px
+   .pricing-title h2, .pricing-section h3 {
+      margin: 0 0 15px;
    }
 
    .pricing-section {
@@ -403,6 +405,16 @@ footer {
       margin: 0.2rem 0 0.45rem;
    }
 
+   .pricing-card-content .price {
+    font-size: 0.88rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+   }
+
+   .pricing-card-content p {
+      margin: 0;
+   }
    /* ==========================================================================
    Specials CSS
    ***Everything that says EDIT indicates it 
