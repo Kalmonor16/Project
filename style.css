@@ -431,8 +431,9 @@ input {
 
    /* ---------------------------------------------------------------------------
    When there ARE specials available.
-    Comment out the following styles when there are no specials available: /* */
+    Comment out the following styles when there are no specials available:
    /*-------------------------------------------------------------------------- */
+
    .specials-sections {
       text-align: center;
       font-size: 18px;
