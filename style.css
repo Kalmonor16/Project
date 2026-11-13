@@ -232,7 +232,7 @@ a {
 .contactform {
    margin: 70px auto;
    max-width: 900px;
-   padding: 20px;
+   padding: 2%;
    text-align: center;
    background-color: #CFE7FF;
    border-radius: 40px;
@@ -266,7 +266,7 @@ input {
 }
 
 #contact-form {
-   padding: 20px;
+   padding: 2%;
    margin: 0 auto;
    width:600px;
    background-color: #ffe3f3;
@@ -287,4 +287,22 @@ input {
    border-radius: 15px;
    border-color: #DE8CB5;
    border-width: 2px;
+}
+
+.link1 {
+   padding: 10px;
+   margin: 20px;
+   background-color:#ffe3f3;
+   border-radius: 15px;
+   border: solid 2px #DE8CB5;
+   color: black;
+}
+
+.link2 {
+   padding: 10px;
+   margin: 20px;
+   background-color:#ffe3f3;
+   border-radius: 15px;
+   border: solid 2px #DE8CB5;
+   color: black;
 }
