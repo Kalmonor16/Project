@@ -9,7 +9,7 @@ Color Palette
    Dark Pink - #DE8CB5
    Light Blue - #e1f0ff
    Dark Blue - #84B3E8
-   Light Yellow - #fdf6d1
+   Light Yellow - 
    Dark Yellow - #EBCF3B
 ========================================================================== */
 
@@ -312,6 +312,32 @@ input {
    color: black;
 }
 
+footer {
+   text-align: center;
+   padding: 10px;
+   background-color: #fdf6d1;
+   margin: 20px;
+}
+
+.footerbutt {
+   font-weight: bold;
+   font-size: 15px;
+   padding: 10px;
+   background-color: #e1f0ff;
+   border: solid 2px #84B3E8;
+   border-radius: 20px;
+   color: #DE8CB5;
+}
+
+.contactinfo {
+   font-weight: bold;
+   font-size: 15px;
+   padding: 10px;
+   background-color: #e1f0ff;
+   border: solid 2px #84B3E8;
+   border-radius: 20px;
+   color: #DE8CB5;
+}
 /* ==========================================================================
    Pricing CSS
    ========================================================================== */
@@ -431,9 +457,8 @@ input {
 
    /* ---------------------------------------------------------------------------
    When there ARE specials available.
-    Comment out the following styles when there are no specials available:
+    Comment out the following styles when there are no specials available: /* */
    /*-------------------------------------------------------------------------- */
-
    .specials-sections {
       text-align: center;
       font-size: 18px;
