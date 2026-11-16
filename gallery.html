@@ -41,7 +41,9 @@
         </div>
     </section>
        
-        <section class="content-section">
+        <section class="content-section"
+        id="gallery">
+            
            <div class="section-heading2">
                 <p class="info">Featured work</p>
                 <h3>Gallery highlights</h3>
@@ -50,61 +52,134 @@
            
            <div class="gallery-grid">
                 
-                 <article class="gallery-card">
-                    <img src="images/alice-in-wonderland-cookies.jpg" alt="Alice in Wonderland cookies">
-                    <h3>Alice in Wonderalnd</h3>
+                 <article class="gallery-card" id="alice-card">
+                    <div class="gallery-image">
+                        <img src="images/alice-in-wonderland-cookies.jpg" alt="Alice in Wonderland cookies">
+                        <a href="#alice-view" class="view-button">View</a>
+                    </div>
+                    <h3>Alice in Wonderland</h3>
                     <p>Whimsical details, storybook charm, and playful color pops that feel like a magical tea party.</p>
                 </article>
 
-                <article class="gallery-card">
-                    <img src="images/botanical.jpg" alt="Botanical collection cookies">
+                <article class="gallery-card" id="botanical-card">
+                    <div class="gallery-image">
+                        <img src="images/botanical.jpg" alt="Botanical collection cookies">
+                        <a href="#botanical-view" class="view-button">View</a>
+                    </div>
                     <h3>Botanical collection</h3>
                     <p>Soft florals, leafy details, and fresh colors that bring a garden-inspired touch to any event.</p>
                 </article>
 
-                <article class="gallery-card">
-                    <img src="images/crowderCookies.jpg" alt="Gold plated business logo cookies">
-                    <h3>Gold-plated logos</h3>
+                <article class="gallery-card" id="gold-plated-card">
+                    <div class="gallery-image">
+                        <img src="images/crowderCookies.jpg" alt="Gold plated business logo cookies">
+                        <a href="#gold-plated-view" class="view-button">View</a>
+                    </div>
+                        <h3>Gold-plated logos</h3>
                     <p>Gold plated business logos — custom cookies that showcase branded elegance for corporate gifts and events.</p>
                 </article>
 
-                <article class="gallery-card">
-                    <img src="images/shrek.jpg" alt="Shrek charater themed cookies">
-                    <h3>Character Favorites</h3>
+                <article class="gallery-card" id="shrek-card">
+                    <div class="gallery-image">
+                        <img src="images/shrek.jpg" alt="Shrek charater themed cookies">
+                        <a href="#shrek-view" class="view-button">View</a>
+                    </div>
+                        <h3>Character Favorites</h3>
                     <p>Beloved character themes with bold personality and playful icing details that guests remember.</p>
                 </article>
 
-                <article class="gallery-card">
-                    <img src="images/tangled.jpg" alt="Tangled cookies">
+                <article class="gallery-card" id="tangled-card">
+                    <div class="gallery-image">
+                        <img src="images/tangled.jpg" alt="Tangled cookies">
+                        <a href="#tangled-view" class="view-button">View</a>
+                    </div>
                     <h3>Storybook Styles</h3>
                     <p>Fairy-tale inspired cookies with layered color, texture, and that handcrafted, magical feel.</p>
                 </article>
 
-                <article class="gallery-card">
-                    <img src="images/wine.jpg" alt="Wine cookies">
+                <article class="gallery-card" id="wine-card">
+                    <div class="gallery-image">
+                        <img src="images/wine.jpg" alt="Wine cookies">
+                        <a href="#wine-view" class="view-button">View</a>
+                    </div>
                     <h3>Elegant Party Trays</h3>
                     <p>Refined details and elevated styling for sophisticated gatherings, gifting, and hosted events.</p>
                 </article>
 
-                <article class="gallery-card">
-                    <img src="images/pink-green-cookies.jpg" alt="Pink and green pet cookies">
-                    <h3>Pet Portraits</h3>
+                <article class="gallery-card" id="pet-card">
+                    <div class="gallery-image">
+                        <img src="images/pink-green-cookies.jpg" alt="Pink and green pet cookies">
+                        <a href="#pet-view" class="view-button">View</a>
+                    </div>
+                        <h3>Pet Portraits</h3>
                     <p>Put your favorite pet's likeness in your party theme — custom dog and pet portraits.</p>
                 </article>
 
-                <article class="gallery-card">
-                    <img src="images/wrappedShrek.jpg" alt="Shrek cookies wrapped">
+                <article class="gallery-card" id="wrapped-shrek-card">
+                    <div class="gallery-image">
+                        <img src="images/wrappedShrek.jpg" alt="Shrek wrapped cookies">
+                        <a href="#wrapped-shrek-view" class="view-button">View</a>
+                    </div>
                     <h3>Wrapped Presentation</h3>
                     <p>Thoughtful finishing touches and sealed packaging for the freshest look and taste to your treats.</p>
                 </article>
 
                 <article class="gallery-card">
-                    <img src="images/july4.jpg" alt="July 4th cookies">
+                    <div class="gallery-image" id="july4-card">
+                        <img src="images/july4.jpg" alt="July 4th cookies">
+                        <a href="#july4-view" class="view-button">View</a>
+                    </div>
                     <h3>Holiday Celebration</h3>
                     <p>Bright, cheerful cookies designed for festive gatherings and joyful celebrations all year long.</p>
                 </article>
             </div>
         </section>
+
+        <div id="alice-view" class="image-overlay">
+            <a href="#alice-card" class="close-button">&times;</a>
+            <img src="images/alice-in-wonderland-cookies.jpg" alt="Alice in Wonderland cookies">
+        </div>
+
+        <div id="botanical-view" class="image-overlay">
+            <a href="#botanical-card" class="close-button">&times;</a>
+            <img src="images/botanical.jpg" alt="Botanical collection cookies">
+        </div>
+
+        <div id="gold-plated-view" class="image-overlay">
+            <a href="#gold-plated-card" class="close-button">&times;</a>
+            <img src="images/crowderCookies.jpg" alt="Gold plated business logo cookies">
+        </div>
+
+        <div id="shrek-view" class="image-overlay">
+            <a href="#shrek-card" class="close-button">&times;</a>
+            <img src="images/shrek.jpg" alt="Shrek character themed cookies">
+        </div>
+
+        <div id="tangled-view" class="image-overlay">
+            <a href="#tangled-card" class="close-button">&times;</a>
+            <img src="images/tangled.jpg" alt="Tangled cookies">
+        </div>
+
+        <div id="wine-view" class="image-overlay">
+            <a href="#wine-card" class="close-button">&times;</a>
+            <img src="images/wine.jpg" alt="Wine cookies">
+        </div>
+
+        <div id="pet-view" class="image-overlay">
+            <a href="#pet-card" class="close-button">&times;</a>
+            <img src="images/pink-green-cookies.jpg" alt="Pink and green pet cookies">
+        </div>
+
+        <div id="wrapped-shrek-view" class="image-overlay">
+            <a href="#wrapped-shrek-card" class="close-button">&times;</a>
+            <img src="images/wrappedShrek.jpg" alt="Shrek wrapped cookies">
+        </div>
+
+        <div id="july4-view" class="image-overlay">
+            <a href="#july4-card" class="close-button">&times;</a>
+            <img src="images/july4.jpg" alt="July 4th cookies">
+        </div>
+
         <footer class="footerinfo">
             <a class="contactinfo" href="order.html#contactid">Contact Information</a>
             <br>

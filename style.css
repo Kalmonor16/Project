@@ -9,7 +9,7 @@ Color Palette
    Dark Pink - #DE8CB5
    Light Blue - #e1f0ff
    Dark Blue - #84B3E8
-   Light Yellow - 
+   Light Yellow - #FFF5C2
    Dark Yellow - #EBCF3B
 ========================================================================== */
 
@@ -234,6 +234,85 @@ a {
 .gallery-card p {
    font-size: 15px;
    line-height: 1.5;
+}
+
+.gallery-image {
+   position: relative;
+   overflow: hidden;
+   border-radius: 12px;
+}
+
+.gallery-image img {
+   width: 100%;
+   display: block;
+}
+
+.view-button {
+   position: absolute;
+   top: 15px;
+   right: 15px;
+   background-color: #FFF5C2;
+   
+   color: black;
+   padding: 8px 14px;
+   border-radius: 20px;
+   border: 1px solid #EBCF3B;
+   text-decoration: none;
+   font-size: 0.85rem;
+   font-weight: bold;
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.gallery-image:hover .view-button, .view-button:focus {
+   opacity: 1;
+}
+
+@media (hover: none) {
+   .view-button {
+   opacity: 1;
+   }
+}
+/*.view-button:hover {
+   background-color:
+}*/
+
+.image-overlay {
+   position: fixed;
+   width: 100%;
+   inset: 0;
+   background: rgba(134, 142, 141, 0.826);
+   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
+   z-index: 9999;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+   overflow: hidden;
+   display: none;
+}
+
+.image-overlay:target {
+   display: flex;
+}
+
+.image-overlay img {
+   max-width: 90%;
+   max-height: 85vh;
+   object-fit: contain;
+   border-radius: 12px;
+}
+
+.close-button {
+   position: absolute;
+   top: 25px;
+   right: 35px;
+   color: white;
+   font-size: 35px;
+   text-decoration: none;
+}
+
+body:has(.image-overlay:target) {
+   overflow: hidden;
 }
 
 /* ORDER PAGE */
